@@ -83,7 +83,7 @@ require (
 	k8s.io/kube-proxy v0.37.0-alpha.1
 	k8s.io/kubectl v0.37.0-alpha.1
 	k8s.io/kubelet v0.37.0-alpha.1
-	k8s.io/kubernetes v1.37.0-alpha.1
+	k8s.io/kubernetes v1.37.0-alpha.2
 	k8s.io/mount-utils v0.37.0-alpha.1
 	k8s.io/utils v0.0.0-20260319190234-28399d86e0b5
 )
@@ -255,7 +255,7 @@ require (
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.68.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.68.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.69.0 // indirect
 	go.opentelemetry.io/otel v1.44.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.44.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.44.0 // indirect
@@ -284,7 +284,7 @@ require (
 	k8s.io/cri-client v0.37.0-alpha.1 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
 	k8s.io/kms v0.37.0-alpha.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20260519202549-bbf5c5577288 // indirect
+	k8s.io/kube-openapi v0.0.0-20260618221249-bc653b64f974 // indirect
 	k8s.io/metrics v0.37.0-alpha.1 // indirect
 	k8s.io/streaming v0.37.0-alpha.1 // indirect
 	modernc.org/libc v1.73.4 // indirect
@@ -303,7 +303,7 @@ require (
 
 // Replacements duplicated from upstream Kubernetes
 replace (
-	// https://github.com/kubernetes/kubernetes/blob/v1.37.0-alpha.1/go.mod#L229-L263
+	// https://github.com/kubernetes/kubernetes/blob/v1.37.0-alpha.2/go.mod#L229-L263
 	// Keep in sync with renovate.json
 	k8s.io/api => k8s.io/api v0.37.0-alpha.1
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.37.0-alpha.1
